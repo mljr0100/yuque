@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "sourceMap": true
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "src/**/*.vue",
+      "env.d.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
